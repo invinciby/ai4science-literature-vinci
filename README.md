@@ -2,7 +2,6 @@
 
 本仓库旨在 **系统性整理和分类公众号【你好不吃虾】发布的 AI for Science (AI4S) 领域顶会/顶刊论文解析**，方便研究人员追踪前沿进展。
 欢迎 **Star⭐** 和 **Pull Request** 补充更多内容！
-如有错误或不足，欢迎补充与指正。
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -206,7 +205,3 @@
 - 若有遗漏或错误，欢迎提交 **Issue/PR** 进行补充与修正。
 - License: [CC BY-NC 4.0](./LICENSE)
 
----
-
-## 🙌 如何贡献
-欢迎大家提 PR/Issue 补充论文，或推荐有趣的 AI for Science 研究！
