@@ -119,13 +119,14 @@
 ## 6. 基准、评估与可解释性
 *构建评测基准、框架，以及提升模型可解释性。*
 
-| 文章 | 发布时间 |
-| :--- | :--- |
-| [上海 AI Lab \| 定量化学基准深度解析，为何顶尖 LLM 会“翻车”？](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 |
-| [北大 ChemCoTBench \| 超越化学QA，评估LLM化学推理能力](http://mp.weixin.qq.com/s/AUo6hMQT3--jvgSinKRMgg) | 2025/6/10 |
-| [中科院 SciHorizon 框架 \| 首次全面“体检”AI4Science准备度](http://mp.weixin.qq.com/s/qH2jQHcxm9iIONk2ejxqYA) | 2025/6/7 |
-| [Nature chem \| 首个化学 LLM 综合能力评估框架](http://mp.weixin.qq.com/s/lgEI60-6DGzJg411WVMQPA) | 2025/6/2 |
-| [Nature旗下 \| 首个学术级化学问答数据集与模型 ChemMatch 问世](http://mp.weixin.qq.com/s/_yTLGexYOBCoZhwnN0g3aw) | 2025/3/2 |
+| 文章 | 发布时间 | 论文链接 | 论文发表时间 |
+| :--- | :--- | :--- | :--- |
+| [CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [链接](https://arxiv.org/abs/2509.00063v1) | 2025-8-26 |
+| [上海 AI Lab \| 定量化学基准深度解析，为何顶尖 LLM 会“翻车”？](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 | | |
+| [北大 ChemCoTBench \| 超越化学QA，评估LLM化学推理能力](http://mp.weixin.qq.com/s/AUo6hMQT3--jvgSinKRMgg) | 2025/6/10 | | |
+| [中科院 SciHorizon 框架 \| 首次全面“体检”AI4Science准备度](http://mp.weixin.qq.com/s/qH2jQHcxm9iIONk2ejxqYA) | 2025/6/7 | | |
+| [Nature chem \| 首个化学 LLM 综合能力评估框架](http://mp.weixin.qq.com/s/lgEI60-6DGzJg411WVMQPA) | 2025/6/2 | | |
+| [Nature旗下 \| 首个学术级化学问答数据集与模型 ChemMatch 问世](http://mp.weixin.qq.com/s/_yTLGexYOBCoZhwnN0g3aw) | 2025/3/2 | | |
 
 ---
 
