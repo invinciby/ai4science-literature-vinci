@@ -121,6 +121,7 @@
 
 | 文章 | 发布时间 | 论文链接 | 论文发表时间 |
 | :--- | :--- | :--- | :--- |
+| [Nature 麻省理工\| 化学反应预测的未来，是“翻译”还是“理解”？生成式反应机理预测模型打通AI预测与DFT验证的最后一公里](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 | [链接](https://www.nature.com/articles/s41586-025-09426-9) | 2025-8-20 |
 | [CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [链接](https://arxiv.org/abs/2509.00063v1) | 2025-8-26 |
 | [上海 AI Lab \| 定量化学基准深度解析，为何顶尖 LLM 会“翻车”？](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 | | |
 | [北大 ChemCoTBench \| 超越化学QA，评估LLM化学推理能力](http://mp.weixin.qq.com/s/AUo6hMQT3--jvgSinKRMgg) | 2025/6/10 | | |
