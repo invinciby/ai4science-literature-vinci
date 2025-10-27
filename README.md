@@ -26,6 +26,7 @@
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+| [Nature 麻省理工\| 化学反应预测的未来，是“翻译”还是“理解”？生成式反应机理预测模型打通AI预测与DFT验证的最后一公里](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 |
 | [IJCAI 2025 \| 化学合成预测SOTA，ChemDual破解LLM数据与认知瓶颈](http://mp.weixin.qq.com/s/Q4FD9mnViRgBAYyAdecxRQ) | 2025/9/2 |
 | [武汉大学 \| KGPO 可解释逆合成推理，发现全新合成路线](http://mp.weixin.qq.com/s/xuq7EHjalm9fxESgflUxtA) | 2025/9/1 |
 | [Natl Sci Rev. \| 厦门大学程俊组 Cat-KG+LLM 抑制幻觉，发现 20 条新路径](http://mp.weixin.qq.com/s/lpbpZkbHi99Gh0pi1jEa3Q) | 2025/8/29 |
@@ -38,7 +39,6 @@
 | [Nature 子刊 \| 化学+GPT：少样本预测与逆设计](http://mp.weixin.qq.com/s/MMBZbwRTMxSrOy8RWf6N5g) | 2025/3/19 |
 | [【CCF B \| EMNLP】ReLM：LM&GNN的化学反应预测新范式](http://mp.weixin.qq.com/s/xkL-i-X7aHVeCX4l1n6chQ) | 2025/3/14 |
 | [【CCF-A /ACL 2024】化学反应预测！ReactXT开源：用AI预测实验步骤](http://mp.weixin.qq.com/s/BWfY1755Tq1klYDJYHHByQ) | 2025/3/10 |
-
 ---
 
 ## 2. 材料科学与发现
@@ -46,6 +46,7 @@
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+|[JACS 10.7 \| 基于LLM重新设计合成感知材料，将其生成的不可合成的无机晶体结构转化为可合成结构](https://mp.weixin.qq.com/s/OxjbNnfTVZSsiXFSQ5ptbA) | 2025/10/13 |
 | [Nat. Commun. \| LLM预测3D晶体结构可合成性与前驱体](http://mp.weixin.qq.com/s/r6NOvowigaVgzyb5rx6DOA) | 2025/7/31 |
 | [利物浦大学 \| MACS多智能体强化学习，优化晶体结构](http://mp.weixin.qq.com/s/re7Bu1-Ta0MA_XqgnBOsJQ) | 2025/7/15 |
 | [npj 普林斯顿大学 \| LLM-Prop性能SOTA，加速材料发现](http://mp.weixin.qq.com/s/KPerXsQKSBJQNAVQ4xih8A) | 2025/6/28 |
@@ -58,13 +59,14 @@
 | [LLM辅助数据驱动：二价氢化物固态电解质的机制解析与验证 ](http://mp.weixin.qq.com/s/Y-Waygcs0CWmavWs_Fm3Yw)| 2025/4/21 |
 | [LLaMat：材料文献分析与晶体生成的双路径语言模型开发](http://mp.weixin.qq.com/s/s8cf_iPnhbnpf-hLAbAkpw) | 2025/4/10 |
 |[ MatterChat \| MatterChat 首个理解材料原子结构的多模态大模型问世，性能超越GPT-4](http://mp.weixin.qq.com/s/hF-kx9cn0F1JUf419Ktg4Q) | 2025/3/29 |
-
+---
 
 ## 3. 分子材料性质预测与设计
 *利用 AI 预测分子/材料的物理化学性质、优化分子结构，或根据目标性质进行反向设计。*
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+|[npj \| 从微观到宏观：OCNet首次打通从分子到器件的全尺度预测！从3D结构中学习到媲美专家特征的表示](https://mp.weixin.qq.com/s/rIlE_jG9t9DNZCekfg72lQ) | 2025/10/21|
 | [中科大&上海 AI Lab \| Chem3DLLM发布，LLM首次实现高精度3D分子直接生成与优化](http://mp.weixin.qq.com/s/UpPkgLYg-4ZGAnyGVVIpag) | 2025/8/15 |
 | [npj \| 看见3D分子，就能预测宏观性质？基于3D Transformer的预训练模型如何打通从分子结构到实验验证的全流程](http://mp.weixin.qq.com/s/otbSpI3EX5NL_qUOanFXsw) | 2025/7/15 |
 | [AIMatDesign \| LLM增强强化学习进行材料逆向设计](http://mp.weixin.qq.com/s/dsAWqaMoe6fMRK8OrIt-iw) | 2025/7/13 |
@@ -74,7 +76,6 @@
 | [Nature 子刊 \| 物理引导的机器学习框架用于LLM聚合物性质预测](http://mp.weixin.qq.com/s/jpemLh0_IhZzhlzuufh20A) | 2025/4/25 |
 | [LLM用于钙钛矿太阳能电池数据提取与性能预测](http://mp.weixin.qq.com/s/z79s-P5Jydd7ljVgneZ7Ew) | 2025/4/23 |
 | [Nature computational science \| NMRNet统一深度学习框架精准预测化学位移](http://mp.weixin.qq.com/s/LJcUjsj4oEuF0t4FxJm-HA) | 2025/4/9 |
-
 ---
 
 ## 4. AI智能体与自动化实验
@@ -82,6 +83,9 @@
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+| [Nature Commun. \| 化学自主机器人平台：以更少实验次数实现纳米材料的端到端合成](https://mp.weixin.qq.com/s/M1-qKK49W96TdBZyjIH3xg) |2025/10/14 |
+| [Commun. Chem 中山大学 \| 整合LLM化学逻辑与量子力学计算，由LLM引导的自动化反应路径探索程序](https://mp.weixin.qq.com/s/3xKTHwUkNfhDEHP5LEP6MA) | 2025/9/26 | 
+| [上海AI Lab&同济 \| ChemBOMAS用于加速化学贝叶斯优化的LLM增强多智能体系统，系统性提升BO效率与性能](https://mp.weixin.qq.com/s/yPqpJ33qzET2fC7MlfmkhA) | 2025/9/21 | 
 | [上海交大 & 深势科技 \| SciMaster 工具增强型科学智能体 ](http://mp.weixin.qq.com/s/9kutEhSHI4_lchaDQL3G4A)| 2025/8/4 |
 | [浙江大学 \| SciToolAgent 知识图谱驱动的科研工具调度](http://mp.weixin.qq.com/s/Srl6yJA7rR3hX4HgomH8Cw) | 2025/7/29 |
 | [Nature ChemEng \| 自驱动实验室动态流动实验解决数据瓶颈](http://mp.weixin.qq.com/s/jISoNcWFLWchUGLXVGj08g) | 2025/7/18 |
@@ -98,7 +102,6 @@
 | [Nature 子刊 \| ChemCrow 大模型“武装”化学工具](http://mp.weixin.qq.com/s/QfewGgxaqAcFN9dq7pcieg) | 2025/3/13 |
 | [【CCF A \| ICLR2025】 MOOSE-CHEM：AI化学家诞生？大语言模型如何突破科学发现的「无人区」](http://mp.weixin.qq.com/s/9QB0T53MXDeEyTUJJlOdnw) | 2025/3/11 |
 | [ChemAgent \| AI化学推理能力提升46%，开启科学智能新纪元](http://mp.weixin.qq.com/s/XA3fnDDIhn9D5uolCM-rAg) | 2025/3/5 |
-
 ---
 
 ## 5. 知识挖掘与信息抽取
@@ -106,6 +109,7 @@
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+|[Jacs 天津大学 \| 结合LLM辅助的文本挖掘与无监督学习，从大规模MOF数据库中筛选高离子电导率材料](https://mp.weixin.qq.com/s/voQjuPY9X_BoAswVVBfGdg) | 2025/10/27 |
 | [npj 北大深研院 \| SLM-MATRIX 多智能体轨迹推理与验证框架](http://mp.weixin.qq.com/s/js7A4goM45mNC25ezw692Q) | 2025/7/21 |
 | [中科大认知智能实验室 \| ChemTable 基准，化学表格信息抽取](http://mp.weixin.qq.com/s/snRJJPmdKw8TXwoxJkZCFQ) | 2025/7/8 |
 | [Chem. Sci \| 化学文献结构化知识抽取框架](http://mp.weixin.qq.com/s/UKP0dPxI6auvovxKKmwhZQ) | 2025/5/27 |
@@ -113,7 +117,6 @@
 | [Communications materials \| LLM 从 240 万篇聚合物论文中提取数据](http://mp.weixin.qq.com/s/42lEzQI3f-_U7uVr6VtMOQ) | 2025/4/14 |
 | [Communications Chemistry \| XpertAI 用文献赋能机器学习解释](http://mp.weixin.qq.com/s/HLKpCgrv0VtlsLeDutRA7A) | 2025/3/31 |
 | [大模型+化学信息抽取：化学研究的“数据困境”与AI的破局之道](http://mp.weixin.qq.com/s/pucpUUL3n8QnniPqnCSdtQ) | 2025/3/12 |
-
 ---
 
 ## 6. 基准、评估与可解释性
@@ -121,6 +124,7 @@
 
 | 文章 | 发布时间 | 论文链接 | 论文发表时间 |
 | :--- | :--- | :--- | :--- |
+|[NeurIPS 25 计算机顶会 \| 告别化学数据稀缺，自动化出题陪练，让LLM化学IQ飙升！==自动化数据集生成==](https://mp.weixin.qq.com/s/Nt50ecHkV0LbHvBaTS5WpA) | 2025/9/25 | | |
 | [Nature 麻省理工\| 化学反应预测的未来，是“翻译”还是“理解”？生成式反应机理预测模型打通AI预测与DFT验证的最后一公里](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 | [链接](https://www.nature.com/articles/s41586-025-09426-9) | 2025-8-20 |
 | [CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [链接](https://arxiv.org/abs/2509.00063v1) | 2025-8-26 |
 | [上海 AI Lab \| 定量化学基准深度解析，为何顶尖 LLM 会“翻车”？](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 | | |
@@ -128,7 +132,9 @@
 | [中科院 SciHorizon 框架 \| 首次全面“体检”AI4Science准备度](http://mp.weixin.qq.com/s/qH2jQHcxm9iIONk2ejxqYA) | 2025/6/7 | | |
 | [Nature chem \| 首个化学 LLM 综合能力评估框架](http://mp.weixin.qq.com/s/lgEI60-6DGzJg411WVMQPA) | 2025/6/2 | | |
 | [Nature旗下 \| 首个学术级化学问答数据集与模型 ChemMatch 问世](http://mp.weixin.qq.com/s/_yTLGexYOBCoZhwnN0g3aw) | 2025/3/2 | | |
-
+|[CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ)|2025/9/4 |[链接](https://arxiv.org/abs/2509.00063) | 2025/8/26|
+|[香港理工&上海AI Lab \|Mol-R1 用于分子发现的显式长思维链推理框架，结合先验调控的上下文蒸馏与分子迭代适应的训练策略](https://mp.weixin.qq.com/s/0fW8xjIHecdveXZA1ZU43A)|2025/9/16 | [链接](https://arxiv.org/abs/2508.08401)| 2025/8/11|
+|[Nature子刊 \| MaCBench系统性评估多模态语言模型在化学与材料科学中能力的综合基准](https://mp.weixin.qq.com/s/OiQwrTv5lRk6LPj7wE1YxQ) | 2025/9/22| [链接](https://www.nature.com/articles/s43588-025-00836-3) | 2025/8/11|
 ---
 
 ## 7. 通用模型与基础能力
@@ -136,6 +142,8 @@
 
 | 文章 | 发布时间 |
 | :--- | :--- |
+|[中科院理论所陈锟 \| AI推理的物理新解，LLM推理能力背后的自组织规律](https://mp.weixin.qq.com/s/-6pyVkzewql-jdNA7PBsvw)|2025/10/24|
+|[上海AI Lab联合发表 \| AI裁判上线！80亿参数模型如何媲美GPT-5，精准打假科学答案？](https://mp.weixin.qq.com/s/k_14j872ynM6Dcn4MzKyaA) | 2025/10/10|
 | [深势科技 \| 从记忆到推理，两阶段框架让分子LLM更智能](http://mp.weixin.qq.com/s/uE73hqcxhzNc3edlOOIrRg) | 2025/8/11 |
 | [上海交大 X-LANCE Lab \| 化学推理大模型从“官能团”层面思考](http://mp.weixin.qq.com/s/hW0kE5m-LJnwfEryzQcFtg) | 2025/8/8 |
 | [中科大&上海 AI Lab&南京大学 \| 多模态 LLM，分子图像生成与优化 +118.9%](http://mp.weixin.qq.com/s/aYHnrprlXUI8NwRdFD7BtQ) | 2025/6/17 |
@@ -149,20 +157,17 @@
 | [Nature npj \| 大模型+知识图谱让材料问答准确率提升近3倍](http://mp.weixin.qq.com/s/ijvs3aVN0-F-lDeoz-71Dg) | 2025/3/24 |
 | [【CCF A\|ACL】AI 如何通过海量文本“猜”出科学新发现？](http://mp.weixin.qq.com/s/8eFfuLNdiufoeA3Vnp6xbg) | 2025/3/19 |
 | [Chemical Science封面 \| SynAskAI：化学家的“全能助手”](http://mp.weixin.qq.com/s/sq2-TaZKq-7D-eDeMPeUAA) | 2025/3/7 |
-
-
-
-
 ---
 
 ## 8. 药物发现
 *AI 在药物研发、靶点发现、分子对接等应用。*
 
-| 文章 | 发布时间 |
-| :--- | :--- |
-| [ACS Nano \| NanoSafari，提供90.5%准确率的纳米医学研究建议](http://mp.weixin.qq.com/s/CEJ1dolvtNQTfvl9YoR5Fw) | 2025/6/5 |
-| [DrugAgent \| 基于多智能体的LLM驱动自动化药物研发](http://mp.weixin.qq.com/s/0kwOyHoj1K4UnBCdxPSdJQ) | 2025/6/4 |
-
+| 文章 | 发布时间 | 论文链接| 论文发表时间|
+| :--- | :--- | :--- | :--- |
+|[【AI For Science 里程碑】谷歌x耶鲁利用27B模型独立发现并实验验证全新抗癌路径](https://mp.weixin.qq.com/s/l1fVrBqPdDIYJ86g63mLDQ)|2025/10/17| | |
+| [深圳大学 \| Frogent端到端全流程药物设计的AI智能体框架，系统性评估其在八大药物发现基准上的性能](https://mp.weixin.qq.com/s/eBVdTd4TRDnqCSNbNvzLjQ) | 2025/9/9| [链接](https://arxiv.org/abs/2508.10760) | 2025/8/14 |
+| [ACS Nano \| NanoSafari，提供90.5%准确率的纳米医学研究建议](http://mp.weixin.qq.com/s/CEJ1dolvtNQTfvl9YoR5Fw) | 2025/6/5 | | |
+| [DrugAgent \| 基于多智能体的LLM驱动自动化药物研发](http://mp.weixin.qq.com/s/0kwOyHoj1K4UnBCdxPSdJQ) | 2025/6/4 |  | |
 ---
 
 ## 9. 综述与前瞻
