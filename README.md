@@ -1,214 +1,220 @@
 # 📚 Awesome AI for Science Papers
 
-本仓库旨在 **系统性整理和分类公众号【你好不吃虾】发布的 AI for Science (AI4S) 领域顶会/顶刊论文解析**，方便研究人员追踪前沿进展。
-欢迎 **Star⭐** 和 **Pull Request** 补充更多内容！
+This repository aims to **systematically organize and categorize AI for Science (AI4S) papers** analyzed and published on the WeChat Official Account **[你好不吃虾]**, making it easier for researchers to track cutting-edge progress.  
+Feel free to **Star⭐** and **Pull Request** to contribute more content!
+
+[简体中文 👉](./README_CN.md)
+
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
-## 📑 目录
-1. 🧪 [化学合成与逆合成](#1-化学合成与逆合成)
-2. 🏗️ [材料科学与发现](#2-材料科学与发现)
-3. 🏗️ [分子/材料性质预测与设计](#3-分子材料性质预测与设计)
-4. 🤖 [AI智能体与自动化实验](#4-ai智能体与自动化实验)
-5. 📊 [知识挖掘与信息抽取](#5-知识挖掘与信息抽取)
-6. 🧩 [基准、评估与可解释性](#6-基准评估与可解释性)
-7. 🌍 [通用模型与基础能力](#7-通用模型与基础能力)
-8. 💊 [药物发现](#8-药物发现)
-9. 📝 [综述与前瞻](#9-综述与前瞻)
-10. 🔧 [项目实战与其他](#10-项目实战与其他)
+## 📑 Contents
+1. 🧪 [Chemical Synthesis and Retrosynthesis](#1-chemical-synthesis-and-retrosynthesis)
+2. 🏗️ [Materials Science and Discovery](#2-materials-science-and-discovery)
+3. 🧬 [Molecular and Material Property Prediction & Design](#3-molecular-and-material-property-prediction-and-design)
+4. 🤖 [AI Agents and Automated Experimentation  ](#4-ai-agents-and-automated-experimentation)
+5. 📊 [Knowledge Mining and Information Extraction](#5-knowledge-mining-and-information-extraction)
+6. 🧩 [Benchmarks, Evaluation, and Explainability](#6-benchmarks-evaluation-and-explainability)
+7. 🌍 [General Models and Fundamental Capabilities](#7-general-models-and-fundamental-capabilities)
+8. 💊 [Drug Discovery](#8-drug-discovery)
+9. 📝 [Reviews and Outlook](#9-reviews-and-outlook)
+10. 🔧 [Project Practice and Others](#10-project-practice-and-others)
 
 ---
 
-## 1. 化学合成与逆合成
-*专注于利用 AI 进行化学反应预测、合成路线规划和逆合成分析。*
+## 1. Chemical Synthesis and Retrosynthesis
+*Focused on using AI for reaction prediction, synthesis planning, and retrosynthesis analysis.*
 
-| 文章 | 发布时间 |
+| Paper | Published |
 | :--- | :--- |
-| [Nature 麻省理工\| 化学反应预测的未来，是“翻译”还是“理解”？生成式反应机理预测模型打通AI预测与DFT验证的最后一公里](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 |
-| [IJCAI 2025 \| 化学合成预测SOTA，ChemDual破解LLM数据与认知瓶颈](http://mp.weixin.qq.com/s/Q4FD9mnViRgBAYyAdecxRQ) | 2025/9/2 |
-| [武汉大学 \| KGPO 可解释逆合成推理，发现全新合成路线](http://mp.weixin.qq.com/s/xuq7EHjalm9fxESgflUxtA) | 2025/9/1 |
-| [Natl Sci Rev. \| 厦门大学程俊组 Cat-KG+LLM 抑制幻觉，发现 20 条新路径](http://mp.weixin.qq.com/s/lpbpZkbHi99Gh0pi1jEa3Q) | 2025/8/29 |
-| [Nat Com 清华大学&amp;碳硅智慧等 \| 突破数据瓶颈，基于百亿级合成数据预训练与RLAIF，逆合成预测准确率提升至SOTA水平](http://mp.weixin.qq.com/s/L0Ob2sci0ihvmeZWL9AWCg)| 2025/8/1 |
-| [上海交大 X-LANCE Lab \| 强化学习的化学推理 LLM 预测逆合成](http://mp.weixin.qq.com/s/HYWW4PzaUtiF3JU71vKBlA) | 2025/7/29 |
-| [ CCF A - AAAI 25 \| ReactGPT理解化学反应，生成高质量、结构正确的实验描述](http://mp.weixin.qq.com/s/cybosk4UjaZs-jx-LahReQ) | 2025/7/22 |
-| [Nature Machine Intelligence \| 上海交大，加速有机化学合成的 LLM](http://mp.weixin.qq.com/s/VeoykDVn4d2EP2ZQg2HpEw) | 2025/7/7 |
-| [Georgia Tech&amp;康奈尔 \| AI直击化学逆合成难题：超越单步反应物预测，一个能够直接生成和优化完整合成路径的智能规划师](http://mp.weixin.qq.com/s/NkDzon4biFvBW0I3gvpVlQ) | 2025/6/20 |
-|[ LLM+知识图谱 \| 材料化学领域的大分子逆合成规划](http://mp.weixin.qq.com/s/RDHYNJleO46c4rRs4oLDJA) | 2025/4/11 |
-| [Nature 子刊 \| 化学+GPT：少样本预测与逆设计](http://mp.weixin.qq.com/s/MMBZbwRTMxSrOy8RWf6N5g) | 2025/3/19 |
-| [【CCF B \| EMNLP】ReLM：LM&GNN的化学反应预测新范式](http://mp.weixin.qq.com/s/xkL-i-X7aHVeCX4l1n6chQ) | 2025/3/14 |
-| [【CCF-A /ACL 2024】化学反应预测！ReactXT开源：用AI预测实验步骤](http://mp.weixin.qq.com/s/BWfY1755Tq1klYDJYHHByQ) | 2025/3/10 |
+| [Nature MIT \| The future of chemical reaction prediction: "Translation" or "Understanding"? A generative mechanistic prediction model bridges AI prediction and DFT validation](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 |
+| [IJCAI 2025 \| ChemDual breaks data and cognition bottlenecks in LLM-based synthesis prediction](http://mp.weixin.qq.com/s/Q4FD9mnViRgBAYyAdecxRQ) | 2025/9/2 |
+| [Wuhan University \| KGPO interpretable retrosynthesis reasoning discovers novel synthetic routes](http://mp.weixin.qq.com/s/xuq7EHjalm9fxESgflUxtA) | 2025/9/1 |
+| [Natl Sci Rev. Xiamen Univ \| Cat-KG+LLM suppresses hallucinations, discovers 20 new synthesis pathways](http://mp.weixin.qq.com/s/lpbpZkbHi99Gh0pi1jEa3Q) | 2025/8/29 |
+| [Nat Com Tsinghua & Carbon Silicon \| Large-scale pretraining and RLAIF push retrosynthesis accuracy to SOTA](http://mp.weixin.qq.com/s/L0Ob2sci0ihvmeZWL9AWCg)| 2025/8/1 |
+| [SJTU X-LANCE Lab \| Reinforcement learning-driven LLM for retrosynthesis reasoning](http://mp.weixin.qq.com/s/HYWW4PzaUtiF3JU71vKBlA) | 2025/7/29 |
+| [CCF A - AAAI 25 \| ReactGPT generates high-quality, structurally correct reaction descriptions](http://mp.weixin.qq.com/s/cybosk4UjaZs-jx-LahReQ) | 2025/7/22 |
+| [Nature Machine Intelligence \| SJTU accelerates organic synthesis with LLMs](http://mp.weixin.qq.com/s/VeoykDVn4d2EP2ZQg2HpEw) | 2025/7/7 |
+| [Georgia Tech & Cornell \| Beyond one-step prediction: an AI planner generating and optimizing full synthetic routes](http://mp.weixin.qq.com/s/NkDzon4biFvBW0I3gvpVlQ) | 2025/6/20 |
+| [LLM + Knowledge Graph \| Retrosynthetic planning for macromolecules in materials chemistry](http://mp.weixin.qq.com/s/RDHYNJleO46c4rRs4oLDJA) | 2025/4/11 |
+| [Nature Sub-journal \| Chemistry + GPT: Few-shot prediction and inverse design](http://mp.weixin.qq.com/s/MMBZbwRTMxSrOy8RWf6N5g) | 2025/3/19 |
+| [CCF B - EMNLP \| ReLM: A new paradigm combining LM & GNN for reaction prediction](http://mp.weixin.qq.com/s/xkL-i-X7aHVeCX4l1n6chQ) | 2025/3/14 |
+| [CCF A - ACL 2024 \| ReactXT open-source AI for predicting experimental steps](http://mp.weixin.qq.com/s/BWfY1755Tq1klYDJYHHByQ) | 2025/3/10 |
 ---
 
-## 2. 材料科学与发现
-*运用 AI 加速新材料的发现、合成与应用，涵盖晶体结构生成、新配方探索等。*
+## 2. Materials Science and Discovery
+*Using AI to accelerate new material discovery, synthesis, and design.*
 
-| 文章 | 发布时间 |
+| Paper | Published |
 | :--- | :--- |
-|[JACS 10.7 \| 基于LLM重新设计合成感知材料，将其生成的不可合成的无机晶体结构转化为可合成结构](https://mp.weixin.qq.com/s/OxjbNnfTVZSsiXFSQ5ptbA) | 2025/10/13 |
-| [Nat. Commun. \| LLM预测3D晶体结构可合成性与前驱体](http://mp.weixin.qq.com/s/r6NOvowigaVgzyb5rx6DOA) | 2025/7/31 |
-| [利物浦大学 \| MACS多智能体强化学习，优化晶体结构](http://mp.weixin.qq.com/s/re7Bu1-Ta0MA_XqgnBOsJQ) | 2025/7/15 |
-| [npj 普林斯顿大学 \| LLM-Prop性能SOTA，加速材料发现](http://mp.weixin.qq.com/s/KPerXsQKSBJQNAVQ4xih8A) | 2025/6/28 |
-| [IBM 研究院 \| AI驱动发现新电解液配方，性能提升172%](http://mp.weixin.qq.com/s/DEigYIPSl2Eey5IMJFPpYA) | 2025/6/21 |
-| [清华&上海 AI Lab \| STEM图像直接生成晶体结构？AutoMat智能体首个打通原子图像到结构模拟的智能体系统](http://mp.weixin.qq.com/s/aGjZKg7plVUc3WkibYUjBQ) | 2025/6/18 |
-| [中科大胡伟团队 \| 无需预设结构！AI智能体如何融合LLM与第一性原理计算，提升材料科学预测精度与效率？](http://mp.weixin.qq.com/s/otKWPUCpix0pMuzDOY42SQ) | 2025/6/13 |
-| [Meta \| FlowLLM材料生成模型，稳定性材料生成率飙升300%，数据集覆盖超 4.5w 种材料](http://mp.weixin.qq.com/s/PbWpAultrDgPPnjvDFU0UA) | 2025/5/26 |
-|[ Nature 新突破 \| 闭环迁移策略让AI产生化学知识，揭示分子光稳定性新机制，驱动材料设计](http://mp.weixin.qq.com/s/LR37a9qPZ-YCjOuveqAE_g) | 2025/5/12 |
-| [Nature Communication \| 自动化MOFs研究：探索LLM在材料科学中搜索、预测和生成任务的表现](http://mp.weixin.qq.com/s/MKSPBTcT21peRrjU5VQm5Q) | 2025/5/8 |
-| [LLM辅助数据驱动：二价氢化物固态电解质的机制解析与验证 ](http://mp.weixin.qq.com/s/Y-Waygcs0CWmavWs_Fm3Yw)| 2025/4/21 |
-| [LLaMat：材料文献分析与晶体生成的双路径语言模型开发](http://mp.weixin.qq.com/s/s8cf_iPnhbnpf-hLAbAkpw) | 2025/4/10 |
-|[ MatterChat \| MatterChat 首个理解材料原子结构的多模态大模型问世，性能超越GPT-4](http://mp.weixin.qq.com/s/hF-kx9cn0F1JUf419Ktg4Q) | 2025/3/29 |
+| [JACS 10.7 \| LLM redesigns synthesizable materials, converting unsynthesizable inorganic structures into feasible ones](https://mp.weixin.qq.com/s/OxjbNnfTVZSsiXFSQ5ptbA) | 2025/10/13 |
+| [Nat. Commun. \| LLM predicts 3D crystal synthesizability and precursors](http://mp.weixin.qq.com/s/r6NOvowigaVgzyb5rx6DOA) | 2025/7/31 |
+| [Liverpool Univ \| MACS multi-agent RL optimizes crystal structures](http://mp.weixin.qq.com/s/re7Bu1-Ta0MA_XqgnBOsJQ) | 2025/7/15 |
+| [npj Princeton \| LLM-Prop achieves SOTA performance, accelerating material discovery](http://mp.weixin.qq.com/s/KPerXsQKSBJQNAVQ4xih8A) | 2025/6/28 |
+| [IBM Research \| AI discovers new electrolyte formulas with 172% improved performance](http://mp.weixin.qq.com/s/DEigYIPSl2Eey5IMJFPpYA) | 2025/6/21 |
+| [Tsinghua & Shanghai AI Lab \| AutoMat agent links atomic STEM images to structure simulation](http://mp.weixin.qq.com/s/aGjZKg7plVUc3WkibYUjBQ) | 2025/6/18 |
+| [USTC Hu Wei Team \| LLM + first-principles hybrid agent enhances material prediction accuracy and efficiency](http://mp.weixin.qq.com/s/otKWPUCpix0pMuzDOY42SQ) | 2025/6/13 |
+| [Meta \| FlowLLM increases stable material generation rate by 300% across 45k materials](http://mp.weixin.qq.com/s/PbWpAultrDgPPnjvDFU0UA) | 2025/5/26 |
+| [Nature \| Closed-loop transfer learning reveals photostability mechanisms, guiding material design](http://mp.weixin.qq.com/s/LR37a9qPZ-YCjOuveqAE_g) | 2025/5/12 |
+| [Nature Communications \| LLMs automate MOF research across search, prediction, and generation](http://mp.weixin.qq.com/s/MKSPBTcT21peRrjU5VQm5Q) | 2025/5/8 |
+| [LLM-assisted study of divalent hydride solid electrolytes](http://mp.weixin.qq.com/s/Y-Waygcs0CWmavWs_Fm3Yw)| 2025/4/21 |
+| [LLaMat: Dual-path model for literature analysis and crystal generation](http://mp.weixin.qq.com/s/s8cf_iPnhbnpf-hLAbAkpw) | 2025/4/10 |
+| [MatterChat \| Multimodal model understanding atomic structures surpasses GPT-4](http://mp.weixin.qq.com/s/hF-kx9cn0F1JUf419Ktg4Q) | 2025/3/29 |
 ---
 
-## 3. 分子材料性质预测与设计
-*利用 AI 预测分子/材料的物理化学性质、优化分子结构，或根据目标性质进行反向设计。*
+## 3. Molecular and Material Property Prediction and Design  
+*Using AI to predict physicochemical properties of molecules/materials, optimize molecular structures, or perform inverse design based on target properties.*  
 
-| 文章 | 发布时间 |
+| Article | Published |
 | :--- | :--- |
-|[npj \| 从微观到宏观：OCNet首次打通从分子到器件的全尺度预测！从3D结构中学习到媲美专家特征的表示](https://mp.weixin.qq.com/s/rIlE_jG9t9DNZCekfg72lQ) | 2025/10/21|
-| [中科大&上海 AI Lab \| Chem3DLLM发布，LLM首次实现高精度3D分子直接生成与优化](http://mp.weixin.qq.com/s/UpPkgLYg-4ZGAnyGVVIpag) | 2025/8/15 |
-| [npj \| 看见3D分子，就能预测宏观性质？基于3D Transformer的预训练模型如何打通从分子结构到实验验证的全流程](http://mp.weixin.qq.com/s/otbSpI3EX5NL_qUOanFXsw) | 2025/7/15 |
-| [AIMatDesign \| LLM增强强化学习进行材料逆向设计](http://mp.weixin.qq.com/s/dsAWqaMoe6fMRK8OrIt-iw) | 2025/7/13 |
-| [JACS 深度原理 \| 从头设计高性能金属配合物，LLM-EO利用内在知识无需微调，性能SOTA！](http://mp.weixin.qq.com/s/P_QUjgTx_Hg6OVqyBea4FA) | 2025/7/9 |
-| [JACS \| 浙大侯廷军团队，利用生成式AI进行结构修改](http://mp.weixin.qq.com/s/icKmMrIN3koMSFT9ScikUw) | 2025/5/6 |
-| [Nature machine intelligence \| 提示引导解决数据稀缺下多属性分子优化](http://mp.weixin.qq.com/s/iFo-PYRfgHe4I9p3LdqoUw) | 2025/4/27 |
-| [Nature 子刊 \| 物理引导的机器学习框架用于LLM聚合物性质预测](http://mp.weixin.qq.com/s/jpemLh0_IhZzhlzuufh20A) | 2025/4/25 |
-| [LLM用于钙钛矿太阳能电池数据提取与性能预测](http://mp.weixin.qq.com/s/z79s-P5Jydd7ljVgneZ7Ew) | 2025/4/23 |
-| [Nature computational science \| NMRNet统一深度学习框架精准预测化学位移](http://mp.weixin.qq.com/s/LJcUjsj4oEuF0t4FxJm-HA) | 2025/4/9 |
+| [npj \| From Micro to Macro: OCNet Enables End-to-End Prediction from Molecules to Devices, Achieving Expert-Level Representation from 3D Structures](https://mp.weixin.qq.com/s/rIlE_jG9t9DNZCekfg72lQ) | 2025/10/21 |
+| [USTC & Shanghai AI Lab \| Chem3DLLM Released — The First LLM Capable of Direct 3D Molecular Generation and Optimization with High Precision](http://mp.weixin.qq.com/s/UpPkgLYg-4ZGAnyGVVIpag) | 2025/8/15 |
+| [npj \| Can Seeing 3D Molecules Predict Macroscopic Properties? A 3D Transformer-Based Pretrained Model Connects Molecular Structure to Experimental Verification](http://mp.weixin.qq.com/s/otbSpI3EX5NL_qUOanFXsw) | 2025/7/15 |
+| [AIMatDesign \| LLM-Augmented Reinforcement Learning for Inverse Material Design](http://mp.weixin.qq.com/s/dsAWqaMoe6fMRK8OrIt-iw) | 2025/7/13 |
+| [JACS Deep Principle \| Designing High-Performance Metal Complexes from Scratch: LLM-EO Achieves SOTA Without Fine-Tuning](http://mp.weixin.qq.com/s/P_QUjgTx_Hg6OVqyBea4FA) | 2025/7/9 |
+| [JACS \| Zhejiang University (Hou Tingjun Group) Uses Generative AI for Structural Modification](http://mp.weixin.qq.com/s/icKmMrIN3koMSFT9ScikUw) | 2025/5/6 |
+| [Nature Machine Intelligence \| Prompt-Guided Multi-Property Molecular Optimization Under Data Scarcity](http://mp.weixin.qq.com/s/iFo-PYRfgHe4I9p3LdqoUw) | 2025/4/27 |
+| [Nature Sub-Journal \| Physics-Guided Machine Learning Framework for Polymer Property Prediction via LLMs](http://mp.weixin.qq.com/s/jpemLh0_IhZzhlzuufh20A) | 2025/4/25 |
+| [LLM for Perovskite Solar Cell Data Extraction and Performance Prediction](http://mp.weixin.qq.com/s/z79s-P5Jydd7ljVgneZ7Ew) | 2025/4/23 |
+| [Nature Computational Science \| NMRNet: A Unified Deep Learning Framework for Accurate Prediction of Chemical Shifts](http://mp.weixin.qq.com/s/LJcUjsj4oEuF0t4FxJm-HA) | 2025/4/9 |
 ---
 
-## 4. AI智能体与自动化实验
-*AI Agent、机器人化学家、自驱动实验室等自动化科学研究。*
+## 4. AI Agents and Automated Experimentation  
+*AI agents, robotic chemists, and self-driving laboratories for automated scientific research.*  
 
-| 文章 | 发布时间 |
+| Article | Published |
 | :--- | :--- |
-| [Nature Commun. \| 化学自主机器人平台：以更少实验次数实现纳米材料的端到端合成](https://mp.weixin.qq.com/s/M1-qKK49W96TdBZyjIH3xg) |2025/10/14 |
-| [Commun. Chem 中山大学 \| 整合LLM化学逻辑与量子力学计算，由LLM引导的自动化反应路径探索程序](https://mp.weixin.qq.com/s/3xKTHwUkNfhDEHP5LEP6MA) | 2025/9/26 | 
-| [上海AI Lab&同济 \| ChemBOMAS用于加速化学贝叶斯优化的LLM增强多智能体系统，系统性提升BO效率与性能](https://mp.weixin.qq.com/s/yPqpJ33qzET2fC7MlfmkhA) | 2025/9/21 | 
-| [上海交大 & 深势科技 \| SciMaster 工具增强型科学智能体 ](http://mp.weixin.qq.com/s/9kutEhSHI4_lchaDQL3G4A)| 2025/8/4 |
-| [浙江大学 \| SciToolAgent 知识图谱驱动的科研工具调度](http://mp.weixin.qq.com/s/Srl6yJA7rR3hX4HgomH8Cw) | 2025/7/29 |
-| [Nature ChemEng \| 自驱动实验室动态流动实验解决数据瓶颈](http://mp.weixin.qq.com/s/jISoNcWFLWchUGLXVGj08g) | 2025/7/18 |
-| [上海交大许岩岩 \| 实现化学实验操作的精准提取](https://mp.weixin.qq.com/s/CdvvAcuVPRTtOpfj3DBeUw) | 2025/7/2 |
-| [CMU \| 多智能体协作破解化学过程优化难题](http://mp.weixin.qq.com/s/atmxavtBkox_FLRVSfONSQ) | 2025/6/30 |
-| [JACS 厦门大学&格拉斯哥大学 \| AI 助手 + 化学机器人探索器](http://mp.weixin.qq.com/s/Xz-Kwxjb-aqUhjj8UWS0qg) | 2025/6/25 |
-| [复旦大学漆远团队 \| ChemHAS 工具增强化学研究](http://mp.weixin.qq.com/s/Ps5X3cTWY2iUYXYBh0s6vA) | 2025/6/23 |
-| [厦门大学 Aitomia：实现自动化计算化学](http://mp.weixin.qq.com/s/PykETWdlpROQre8hM77R2g) | 2025/5/24 |
-| [康奈尔大学 \| LLM 驱动“智能体在环”的自主研发](http://mp.weixin.qq.com/s/pu-6EYETEsMGbaaXlc5j4g) | 2025/5/19 |
-| [Science \| RoboChem 实现光催化反应自主优化](http://mp.weixin.qq.com/s/RWpPNCAXqZrMCe2mKgswBw) | 2025/5/13 |
-| [SCIAGENT \| 突破LLM科学推理瓶颈的工具增强型Agent](http://mp.weixin.qq.com/s/x70HIxRQItOILHn1fiQaEg) | 2025/3/27 |
-| [JACS \| 多智能体驱动机器人化学家，实现按需自主研究](http://mp.weixin.qq.com/s/ow3CJI6sNXm7evY1ulKY4Q) | 2025/3/25 |
-| [Nature通讯 \| GPT-4赋能化学合成，从文献检索到产物纯化，全流程自动化！](http://mp.weixin.qq.com/s/Ogvd8g0ZpEkfFlVN_2BfKw) | 2025/3/21 |
-| [Nature 子刊 \| ChemCrow 大模型“武装”化学工具](http://mp.weixin.qq.com/s/QfewGgxaqAcFN9dq7pcieg) | 2025/3/13 |
-| [【CCF A \| ICLR2025】 MOOSE-CHEM：AI化学家诞生？大语言模型如何突破科学发现的「无人区」](http://mp.weixin.qq.com/s/9QB0T53MXDeEyTUJJlOdnw) | 2025/3/11 |
-| [ChemAgent \| AI化学推理能力提升46%，开启科学智能新纪元](http://mp.weixin.qq.com/s/XA3fnDDIhn9D5uolCM-rAg) | 2025/3/5 |
+| [Nature Commun. \| Autonomous Chemical Robotics Platform: Achieving End-to-End Nanomaterial Synthesis with Fewer Experiments](https://mp.weixin.qq.com/s/M1-qKK49W96TdBZyjIH3xg) | 2025/10/14 |
+| [Commun. Chem (Sun Yat-sen Univ.) \| LLM-Guided Automated Reaction Pathway Exploration Integrating Chemical Logic and Quantum Mechanics](https://mp.weixin.qq.com/s/3xKTHwUkNfhDEHP5LEP6MA) | 2025/9/26 |
+| [Shanghai AI Lab & Tongji Univ. \| ChemBOMAS: LLM-Enhanced Multi-Agent System for Accelerating Bayesian Optimization in Chemistry](https://mp.weixin.qq.com/s/yPqpJ33qzET2fC7MlfmkhA) | 2025/9/21 |
+| [SJTU & DP Technology \| SciMaster: Tool-Augmented Scientific Agent](http://mp.weixin.qq.com/s/9kutEhSHI4_lchaDQL3G4A) | 2025/8/4 |
+| [Zhejiang Univ. \| SciToolAgent: Knowledge-Graph-Driven Scientific Tool Scheduling](http://mp.weixin.qq.com/s/Srl6yJA7rR3hX4HgomH8Cw) | 2025/7/29 |
+| [Nature ChemEng \| Self-Driving Lab Solves Data Bottlenecks via Dynamic Flow Experiments](http://mp.weixin.qq.com/s/jISoNcWFLWchUGLXVGj08g) | 2025/7/18 |
+| [SJTU (Xu Yanyan Group) \| Accurate Extraction of Chemical Experimental Operations](https://mp.weixin.qq.com/s/CdvvAcuVPRTtOpfj3DBeUw) | 2025/7/2 |
+| [CMU \| Multi-Agent Collaboration for Chemical Process Optimization](http://mp.weixin.qq.com/s/atmxavtBkox_FLRVSfONSQ) | 2025/6/30 |
+| [JACS (Xiamen Univ. & Univ. of Glasgow) \| AI Assistant + Robotic Chemist Explorer](http://mp.weixin.qq.com/s/Xz-Kwxjb-aqUhjj8UWS0qg) | 2025/6/25 |
+| [Fudan Univ. (Qi Yuan Team) \| ChemHAS: Tool-Augmented Chemical Research](http://mp.weixin.qq.com/s/Ps5X3cTWY2iUYXYBh0s6vA) | 2025/6/23 |
+| [Xiamen Univ. \| Aitomia: Automated Computational Chemistry Platform](http://mp.weixin.qq.com/s/PykETWdlpROQre8hM77R2g) | 2025/5/24 |
+| [Cornell Univ. \| LLM-Driven "Agent-in-the-Loop" Autonomous R&D](http://mp.weixin.qq.com/s/pu-6EYETEsMGbaaXlc5j4g) | 2025/5/19 |
+| [Science \| RoboChem: Autonomous Optimization of Photocatalytic Reactions](http://mp.weixin.qq.com/s/RWpPNCAXqZrMCe2mKgswBw) | 2025/5/13 |
+| [SCIAGENT \| Tool-Augmented Agent Breaking Through LLM Scientific Reasoning Bottleneck](http://mp.weixin.qq.com/s/x70HIxRQItOILHn1fiQaEg) | 2025/3/27 |
+| [JACS \| Multi-Agent Robotic Chemist Enabling On-Demand Autonomous Research](http://mp.weixin.qq.com/s/ow3CJI6sNXm7evY1ulKY4Q) | 2025/3/25 |
+| [Nature Commun. \| GPT-4 Empowered Chemical Synthesis: From Literature Mining to Product Purification, Fully Automated!](http://mp.weixin.qq.com/s/Ogvd8g0ZpEkfFlVN_2BfKw) | 2025/3/21 |
+| [Nature Sub-Journal \| ChemCrow: LLM "Armed" Chemical Tools](http://mp.weixin.qq.com/s/QfewGgxaqAcFN9dq7pcieg) | 2025/3/13 |
+| [ICLR 2025 (CCF A) \| MOOSE-CHEM: Birth of the AI Chemist? Exploring the "No-Man’s Land" of Scientific Discovery](http://mp.weixin.qq.com/s/9QB0T53MXDeEyTUJJlOdnw) | 2025/3/11 |
+| [ChemAgent \| 46% Improvement in AI Chemical Reasoning, Opening a New Era of Scientific Intelligence](http://mp.weixin.qq.com/s/XA3fnDDIhn9D5uolCM-rAg) | 2025/3/5 |
 ---
 
-## 5. 知识挖掘与信息抽取
-*从科学文献、图表中提取结构化信息，构建知识库。*
+## 5. Knowledge Mining and Information Extraction  
+*Extracting structured information from scientific literature and figures to build knowledge bases.*  
 
-| 文章 | 发布时间 |
+
+| Article | Published |
 | :--- | :--- |
-|[Jacs 天津大学 \| 结合LLM辅助的文本挖掘与无监督学习，从大规模MOF数据库中筛选高离子电导率材料](https://mp.weixin.qq.com/s/voQjuPY9X_BoAswVVBfGdg) | 2025/10/27 |
-| [npj 北大深研院 \| SLM-MATRIX 多智能体轨迹推理与验证框架](http://mp.weixin.qq.com/s/js7A4goM45mNC25ezw692Q) | 2025/7/21 |
-| [中科大认知智能实验室 \| ChemTable 基准，化学表格信息抽取](http://mp.weixin.qq.com/s/snRJJPmdKw8TXwoxJkZCFQ) | 2025/7/8 |
-| [Chem. Sci \| 化学文献结构化知识抽取框架](http://mp.weixin.qq.com/s/UKP0dPxI6auvovxKKmwhZQ) | 2025/5/27 |
-| [MolMole \| AI “看懂”分子结构与反应，革新化学信息提取](http://mp.weixin.qq.com/s/PKGFrmKw53qrp0XlsofaaA) | 2025/5/14 |
-| [Communications materials \| LLM 从 240 万篇聚合物论文中提取数据](http://mp.weixin.qq.com/s/42lEzQI3f-_U7uVr6VtMOQ) | 2025/4/14 |
-| [Communications Chemistry \| XpertAI 用文献赋能机器学习解释](http://mp.weixin.qq.com/s/HLKpCgrv0VtlsLeDutRA7A) | 2025/3/31 |
-| [大模型+化学信息抽取：化学研究的“数据困境”与AI的破局之道](http://mp.weixin.qq.com/s/pucpUUL3n8QnniPqnCSdtQ) | 2025/3/12 |
+| [JACS (Tianjin Univ.) \| Combining LLM-Assisted Text Mining and Unsupervised Learning to Identify High Ionic Conductivity Materials from Large-Scale MOF Databases](https://mp.weixin.qq.com/s/voQjuPY9X_BoAswVVBfGdg) | 2025/10/27 |
+| [npj (Peking Univ. Shenzhen Graduate School) \| SLM-MATRIX: Multi-Agent Trajectory Reasoning and Verification Framework](http://mp.weixin.qq.com/s/js7A4goM45mNC25ezw692Q) | 2025/7/21 |
+| [USTC Cognitive Intelligence Lab \| ChemTable Benchmark for Chemical Table Information Extraction](http://mp.weixin.qq.com/s/snRJJPmdKw8TXwoxJkZCFQ) | 2025/7/8 |
+| [Chem. Sci \| Structured Knowledge Extraction Framework for Chemical Literature](http://mp.weixin.qq.com/s/UKP0dPxI6auvovxKKmwhZQ) | 2025/5/27 |
+| [MolMole \| AI “Understands” Molecular Structures and Reactions, Revolutionizing Chemical Information Extraction](http://mp.weixin.qq.com/s/PKGFrmKw53qrp0XlsofaaA) | 2025/5/14 |
+| [Communications Materials \| LLM Extracts Data from 2.4 Million Polymer Research Papers](http://mp.weixin.qq.com/s/42lEzQI3f-_U7uVr6VtMOQ) | 2025/4/14 |
+| [Communications Chemistry \| XpertAI: Literature-Driven Machine Learning Interpretability Framework](http://mp.weixin.qq.com/s/HLKpCgrv0VtlsLeDutRA7A) | 2025/3/31 |
+| [LLM + Chemical Information Extraction: How AI Breaks the “Data Dilemma” in Chemical Research](http://mp.weixin.qq.com/s/pucpUUL3n8QnniPqnCSdtQ) | 2025/3/12 |
 ---
 
-## 6. 基准、评估与可解释性
-*构建评测基准、框架，以及提升模型可解释性。*
+## 6. Benchmarks, Evaluation, and Explainability  
+*Building evaluation benchmarks and frameworks, and improving model interpretability.*   
 
-| 文章 | 发布时间 | 论文链接 | 论文发表时间 |
+| Article | Published | Paper Link | Publication Date |
 | :--- | :--- | :--- | :--- |
-|[NeurIPS 25 计算机顶会 \| 告别化学数据稀缺，自动化出题陪练，让LLM化学IQ飙升！==自动化数据集生成==](https://mp.weixin.qq.com/s/Nt50ecHkV0LbHvBaTS5WpA) | 2025/9/25 | | |
-| [Nature 麻省理工\| 化学反应预测的未来，是“翻译”还是“理解”？生成式反应机理预测模型打通AI预测与DFT验证的最后一公里](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 | [链接](https://www.nature.com/articles/s41586-025-09426-9) | 2025-8-20 |
-| [CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [链接](https://arxiv.org/abs/2509.00063v1) | 2025-8-26 |
-| [上海 AI Lab \| 定量化学基准深度解析，为何顶尖 LLM 会“翻车”？](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 | | |
-| [北大 ChemCoTBench \| 超越化学QA，评估LLM化学推理能力](http://mp.weixin.qq.com/s/AUo6hMQT3--jvgSinKRMgg) | 2025/6/10 | | |
-| [中科院 SciHorizon 框架 \| 首次全面“体检”AI4Science准备度](http://mp.weixin.qq.com/s/qH2jQHcxm9iIONk2ejxqYA) | 2025/6/7 | | |
-| [Nature chem \| 首个化学 LLM 综合能力评估框架](http://mp.weixin.qq.com/s/lgEI60-6DGzJg411WVMQPA) | 2025/6/2 | | |
-| [Nature旗下 \| 首个学术级化学问答数据集与模型 ChemMatch 问世](http://mp.weixin.qq.com/s/_yTLGexYOBCoZhwnN0g3aw) | 2025/3/2 | | |
-|[CMU \| MolErr2Fix首个化学LLM可信赖性基准，评估LLM在化学领域的错误检测与修正能力](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ)|2025/9/4 |[链接](https://arxiv.org/abs/2509.00063) | 2025/8/26|
-|[香港理工&上海AI Lab \|Mol-R1 用于分子发现的显式长思维链推理框架，结合先验调控的上下文蒸馏与分子迭代适应的训练策略](https://mp.weixin.qq.com/s/0fW8xjIHecdveXZA1ZU43A)|2025/9/16 | [链接](https://arxiv.org/abs/2508.08401)| 2025/8/11|
-|[Nature子刊 \| MaCBench系统性评估多模态语言模型在化学与材料科学中能力的综合基准](https://mp.weixin.qq.com/s/OiQwrTv5lRk6LPj7wE1YxQ) | 2025/9/22| [链接](https://www.nature.com/articles/s43588-025-00836-3) | 2025/8/11|
+| [NeurIPS 2025 \| Say Goodbye to Chemical Data Scarcity: Automated Dataset Generation Boosts LLM Chemical IQ! ==Automated Dataset Generation==](https://mp.weixin.qq.com/s/Nt50ecHkV0LbHvBaTS5WpA) | 2025/9/25 |  |  |
+| [MIT & Nature \| The Future of Chemical Reaction Prediction: “Translation” or “Understanding”? A Generative Mechanistic Model Bridging AI Prediction and DFT Validation](https://mp.weixin.qq.com/s/wrkjjBOOu1RoyRFZOJGZjQ) | 2025/9/11 | [Link](https://www.nature.com/articles/s41586-025-09426-9) | 2025-8-20 |
+| [CMU \| MolErr2Fix: The First Reliability Benchmark for Chemical LLMs, Evaluating Error Detection and Correction Abilities in Chemistry](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [Link](https://arxiv.org/abs/2509.00063v1) | 2025-8-26 |
+| [Shanghai AI Lab \| Quantitative Chemistry Benchmark Analysis — Why Do Top LLMs “Fail”?](http://mp.weixin.qq.com/s/xikAz2BEoDodjgIlYZeZ-w) | 2025/8/6 |  |  |
+| [Peking Univ. \| ChemCoTBench: Beyond Chemical QA — Evaluating LLMs’ Chemical Reasoning Ability](http://mp.weixin.qq.com/s/AUo6hMQT3--jvgSinKRMgg) | 2025/6/10 |  |  |
+| [CAS \| SciHorizon Framework: The First Comprehensive “Health Check” for AI4Science Readiness](http://mp.weixin.qq.com/s/qH2jQHcxm9iIONk2ejxqYA) | 2025/6/7 |  |  |
+| [Nature Chemistry \| The First Comprehensive Evaluation Framework for Chemical LLMs](http://mp.weixin.qq.com/s/lgEI60-6DGzJg411WVMQPA) | 2025/6/2 |  |  |
+| [Nature Series \| ChemMatch: The First Academic-Grade Chemical QA Dataset and Model](http://mp.weixin.qq.com/s/_yTLGexYOBCoZhwnN0g3aw) | 2025/3/2 |  |  |
+| [CMU \| MolErr2Fix: The First Reliability Benchmark for Chemical LLMs, Evaluating Error Detection and Correction Abilities in Chemistry (Duplicate)](https://mp.weixin.qq.com/s/T8irtdL-uaxQidotT06HyQ) | 2025/9/4 | [Link](https://arxiv.org/abs/2509.00063) | 2025/8/26 |
+| [PolyU & Shanghai AI Lab \| Mol-R1: Explicit Long-Chain Reasoning Framework for Molecular Discovery, Combining Prior-Regulated Context Distillation and Iterative Molecular Adaptation](https://mp.weixin.qq.com/s/0fW8xjIHecdveXZA1ZU43A) | 2025/9/16 | [Link](https://arxiv.org/abs/2508.08401) | 2025/8/11 |
+| [Nature Sub-Journal \| MaCBench: A Comprehensive Benchmark Systematically Evaluating Multimodal LLMs in Chemistry and Materials Science](https://mp.weixin.qq.com/s/OiQwrTv5lRk6LPj7wE1YxQ) | 2025/9/22 | [Link](https://www.nature.com/articles/s43588-025-00836-3) | 2025/8/11 |
 ---
 
-## 7. 通用模型与基础能力
-*跨领域科学大模型与科学推理能力突破。*
+## 7. General Models and Fundamental Capabilities
+*Cross-domain scientific large models and breakthroughs in scientific reasoning.*
 
-| 文章 | 发布时间 |
+| Article | Release Date |
 | :--- | :--- |
-|[中科院理论所陈锟 \| AI推理的物理新解，LLM推理能力背后的自组织规律](https://mp.weixin.qq.com/s/-6pyVkzewql-jdNA7PBsvw)|2025/10/24|
-|[上海AI Lab联合发表 \| AI裁判上线！80亿参数模型如何媲美GPT-5，精准打假科学答案？](https://mp.weixin.qq.com/s/k_14j872ynM6Dcn4MzKyaA) | 2025/10/10|
-| [深势科技 \| 从记忆到推理，两阶段框架让分子LLM更智能](http://mp.weixin.qq.com/s/uE73hqcxhzNc3edlOOIrRg) | 2025/8/11 |
-| [上海交大 X-LANCE Lab \| 化学推理大模型从“官能团”层面思考](http://mp.weixin.qq.com/s/hW0kE5m-LJnwfEryzQcFtg) | 2025/8/8 |
-| [中科大&上海 AI Lab&南京大学 \| 多模态 LLM，分子图像生成与优化 +118.9%](http://mp.weixin.qq.com/s/aYHnrprlXUI8NwRdFD7BtQ) | 2025/6/17 |
-| [AI4S前沿 \| LLM 通过强化学习解锁化学“思维链”](http://mp.weixin.qq.com/s/uQ18Dbf_gvInQkb2OemKtg) | 2025/6/8 |
-| [Meta & CMU \| UMA 通用原子模型，革新分子预测与材料设计](http://mp.weixin.qq.com/s/ex1MI7AhtDtgbuQkD1p5GQ) | 2025/5/23 |
-| [Meta开源 \| OMol25 数据集与 UMA 模型](http://mp.weixin.qq.com/s/KU32l17811ut3fHoyo9ang) | 2025/5/22 |
-| [微软 \| NatureLM 横空出世：化学-材料-生物通用模型](http://mp.weixin.qq.com/s/UTWWdn_6ZhhkoIsJfK1IqQ) | 2025/5/15 |
-|[ Nature \| LLM 反向传播自动优化复杂的生成式 AI 系统](http://mp.weixin.qq.com/s/WT9JWpXz8Jt6vc8eV-6Eng) | 2025/4/30 |
-| [解锁复杂化学推理：大型语言模型需要“结构化思维”—STRUCTCHEM](http://mp.weixin.qq.com/s/ty22EgXI1kUeS8g7z1L4Sg) | 2025/4/18 |
-| [DARWIN 1.5 \| 材料科学专用 LLM，优于 SOTA 机器学习方法](http://mp.weixin.qq.com/s/x8-guWBMoooHccK37oufgQ) | 2025/4/8 |
-| [Nature npj \| 大模型+知识图谱让材料问答准确率提升近3倍](http://mp.weixin.qq.com/s/ijvs3aVN0-F-lDeoz-71Dg) | 2025/3/24 |
-| [【CCF A\|ACL】AI 如何通过海量文本“猜”出科学新发现？](http://mp.weixin.qq.com/s/8eFfuLNdiufoeA3Vnp6xbg) | 2025/3/19 |
-| [Chemical Science封面 \| SynAskAI：化学家的“全能助手”](http://mp.weixin.qq.com/s/sq2-TaZKq-7D-eDeMPeUAA) | 2025/3/7 |
+| [CAS Institute of Theoretical Physics – A new physical interpretation of AI reasoning: The self-organizing law behind LLM reasoning](https://mp.weixin.qq.com/s/-6pyVkzewql-jdNA7PBsvw) | 2025/10/24 |
+| [Shanghai AI Lab – “AI Judge” launched! How an 8B-parameter model rivals GPT-5 to verify scientific answers](https://mp.weixin.qq.com/s/k_14j872ynM6Dcn4MzKyaA) | 2025/10/10 |
+| [DeepSeek Tech – From memory to reasoning: A two-stage framework makes molecular LLMs smarter](http://mp.weixin.qq.com/s/uE73hqcxhzNc3edlOOIrRg) | 2025/8/11 |
+| [SJTU X-LANCE Lab – Chemical reasoning LLMs that think at the functional group level](http://mp.weixin.qq.com/s/hW0kE5m-LJnwfEryzQcFtg) | 2025/8/8 |
+| [USTC, Shanghai AI Lab & Nanjing University – Multimodal LLM for molecular image generation and optimization (+118.9% improvement)](http://mp.weixin.qq.com/s/aYHnrprlXUI8NwRdFD7BtQ) | 2025/6/17 |
+| [AI4S Frontier – LLMs unlock “chains of thought” in chemistry through reinforcement learning](http://mp.weixin.qq.com/s/uQ18Dbf_gvInQkb2OemKtg) | 2025/6/8 |
+| [Meta & CMU – UMA: A universal atomic model for molecular prediction and materials design](http://mp.weixin.qq.com/s/ex1MI7AhtDtgbuQkD1p5GQ) | 2025/5/23 |
+| [Meta open-sources OMol25 dataset and UMA model](http://mp.weixin.qq.com/s/KU32l17811ut3fHoyo9ang) | 2025/5/22 |
+| [Microsoft – NatureLM: A cross-domain model for chemistry, materials, and biology](http://mp.weixin.qq.com/s/UTWWdn_6ZhhkoIsJfK1IqQ) | 2025/5/15 |
+| [Nature – LLMs perform self-optimization through backpropagation for generative AI systems](http://mp.weixin.qq.com/s/WT9JWpXz8Jt6vc8eV-6Eng) | 2025/4/30 |
+| [STRUCTCHEM – Enabling structured thinking for complex chemical reasoning](http://mp.weixin.qq.com/s/ty22EgXI1kUeS8g7z1L4Sg) | 2025/4/18 |
+| [DARWIN 1.5 – A materials science LLM outperforming SOTA machine learning methods](http://mp.weixin.qq.com/s/x8-guWBMoooHccK37oufgQ) | 2025/4/8 |
+| [Nature npj – LLMs + knowledge graphs triple the accuracy of materials Q&A](http://mp.weixin.qq.com/s/ijvs3aVN0-F-lDeoz-71Dg) | 2025/3/24 |
+| [CCF-A/ACL – How AI discovers scientific insights through massive text mining](http://mp.weixin.qq.com/s/8eFfuLNdiufoeA3Vnp6xbg) | 2025/3/19 |
+| [Chemical Science cover – SynAskAI: The all-in-one assistant for chemists](http://mp.weixin.qq.com/s/sq2-TaZKq-7D-eDeMPeUAA) | 2025/3/7 |
 ---
 
-## 8. 药物发现
-*AI 在药物研发、靶点发现、分子对接等应用。*
+## 8. Drug Discovery
+*Applications of AI in drug development, target identification, and molecular docking.*
 
-| 文章 | 发布时间 | 论文链接| 论文发表时间|
+| Article | Release Date | Paper Link | Publication Date |
 | :--- | :--- | :--- | :--- |
-|[【AI For Science 里程碑】谷歌x耶鲁利用27B模型独立发现并实验验证全新抗癌路径](https://mp.weixin.qq.com/s/l1fVrBqPdDIYJ86g63mLDQ)|2025/10/17| | |
-| [深圳大学 \| Frogent端到端全流程药物设计的AI智能体框架，系统性评估其在八大药物发现基准上的性能](https://mp.weixin.qq.com/s/eBVdTd4TRDnqCSNbNvzLjQ) | 2025/9/9| [链接](https://arxiv.org/abs/2508.10760) | 2025/8/14 |
-| [ACS Nano \| NanoSafari，提供90.5%准确率的纳米医学研究建议](http://mp.weixin.qq.com/s/CEJ1dolvtNQTfvl9YoR5Fw) | 2025/6/5 | | |
-| [DrugAgent \| 基于多智能体的LLM驱动自动化药物研发](http://mp.weixin.qq.com/s/0kwOyHoj1K4UnBCdxPSdJQ) | 2025/6/4 |  | |
+| [**AI for Science Milestone** – Google × Yale use a 27B-parameter model to independently discover and experimentally validate a novel anticancer pathway](https://mp.weixin.qq.com/s/l1fVrBqPdDIYJ86g63mLDQ) | 2025/10/17 |  |  |
+| [**Shenzhen University** – Frogent: An end-to-end AI agent framework for drug design, systematically evaluated on eight major drug discovery benchmarks](https://mp.weixin.qq.com/s/eBVdTd4TRDnqCSNbNvzLjQ) | 2025/9/9 | [Link](https://arxiv.org/abs/2508.10760) | 2025/8/14 |
+| [**ACS Nano** – NanoSafari: Providing 90.5% accurate research suggestions for nanomedicine](http://mp.weixin.qq.com/s/CEJ1dolvtNQTfvl9YoR5Fw) | 2025/6/5 |  |  |
+| [**DrugAgent** – A multi-agent LLM-driven framework for automated drug discovery](http://mp.weixin.qq.com/s/0kwOyHoj1K4UnBCdxPSdJQ) | 2025/6/4 |  |  |
 ---
 
-## 9. 综述与前瞻
-*领域回顾、总结与未来展望。*
+## 9. Reviews and Outlook  
+*Field overviews, summaries, and future perspectives.*
 
-| 文章 | 发布时间 |
+| Article | Release Date |
 | :--- | :--- |
-| [Adv. Intell. Discov. 重庆大学 \| 大模型如何重塑材料科学？](http://mp.weixin.qq.com/s/zP9zw3i68uz6OduTLfuaAw) | 2025/7/28 |
-|[ ISM & TU Dresden \| AI大模型到底懂多少材料科学？](http://mp.weixin.qq.com/s/3n0iV96FzkEicrEA4eO8cA) | 2025/7/25 |
-| [多伦多大学 & NVIDIA \| LLM如何攻克计算化学的“使用壁垒”](http://mp.weixin.qq.com/s/_5ZJAO6mK-rYoN4nRwb09w) | 2025/7/4 |
-|[ Nature npj \| NLP和LLM在材料研究中的应用进展综述](http://mp.weixin.qq.com/s/uVVUIbAJwQyf2irVHvBu7A) | 2025/5/29 |
-| [Chem. Sci \| LLM如何重塑催化剂的发现与设计？](http://mp.weixin.qq.com/s/3_6fnGiDINzW0WJhbS0G4A) | 2025/5/28 |
-| [Nature & OpenAI \| AI模型将能自主进行“新颖研究”](http://mp.weixin.qq.com/s/jR9Y5fBnwsBkEGr__8LK7A) | 2025/5/14 |
-| [Nature子刊 \| 强化学习+化学研究催化反应机理](http://mp.weixin.qq.com/s/mD4cGdEtzyGUGOq2OEoTvg) | 2025/5/9 |
-| [Progress in Materials Science \| 语言模型赋能材料科学的未来](http://mp.weixin.qq.com/s/tIBz6EI4_K6lzJjY8Sei5g) | 2025/5/7 |
-| [如何改变材料科学和化学的14个例子：对大型语言模型黑客马拉松的反思](http://mp.weixin.qq.com/s/K1knkWuhxcaLRUGk23zCsQ) | 2025/4/29 |
-| [AI大语言模型重塑化学材料研究：从文献助手到发现引擎](http://mp.weixin.qq.com/s/8LtX5bGrFco5oJ2RYxoHng) | 2025/4/24 |
-|[ Nature npj 综述 \| NLP与LLM如何重塑材料研究范式](http://mp.weixin.qq.com/s/3NU3cIgIz4mNmff7vsMW4Q) | 2025/4/22 |
-| [LLM材料科学中综述：知识发现、性能预测与实验自动化](http://mp.weixin.qq.com/s/xJHgGcW253L5OXHh2lIRZQ) | 2025/4/16 |
-| [Nature Reviews Materials \| 大型语言模型在框架化学中的三类应用：数据挖掘、结构设计与合成自动化](http://mp.weixin.qq.com/s/D6O3UogLez0i6PxlyN2l0A) | 2025/4/2 |
-| [大型语言模型能否推动材料科学革命？先解决这些挑战](http://mp.weixin.qq.com/s/Fh7A77jme4ldh0GM8yvvIA) | 2025/3/20 |
-| [Nature Machine Intelligence \| 大语言模型驱动分子科学发现：从知识合成到可解释预测的革命 ](http://mp.weixin.qq.com/s/QB_Y169wLyFNQhxw0_nOIg)| 2025/3/17 |
-
+| [**Adv. Intell. Discov. – Chongqing University**: How Large Models Are Reshaping Materials Science](http://mp.weixin.qq.com/s/zP9zw3i68uz6OduTLfuaAw) | 2025/7/28 |
+| [**ISM & TU Dresden**: How Much Do AI Models Really Understand About Materials Science?](http://mp.weixin.qq.com/s/3n0iV96FzkEicrEA4eO8cA) | 2025/7/25 |
+| [**University of Toronto & NVIDIA**: How LLMs Break Computational Chemistry Barriers](http://mp.weixin.qq.com/s/_5ZJAO6mK-rYoN4nRwb09w) | 2025/7/4 |
+| [**Nature npj**: Review of NLP and LLM Applications in Materials Research](http://mp.weixin.qq.com/s/uVVUIbAJwQyf2irVHvBu7A) | 2025/5/29 |
+| [**Chem. Sci**: How LLMs Are Revolutionizing Catalyst Discovery and Design](http://mp.weixin.qq.com/s/3_6fnGiDINzW0WJhbS0G4A) | 2025/5/28 |
+| [**Nature & OpenAI**: AI Models Moving Toward Autonomous Scientific Discovery](http://mp.weixin.qq.com/s/jR9Y5fBnwsBkEGr__8LK7A) | 2025/5/14 |
+| [**Nature Sub-journal**: Reinforcement Learning + Chemistry Research for Catalytic Mechanisms](http://mp.weixin.qq.com/s/mD4cGdEtzyGUGOq2OEoTvg) | 2025/5/9 |
+| [**Progress in Materials Science**: The Future of Materials Science Empowered by Language Models](http://mp.weixin.qq.com/s/tIBz6EI4_K6lzJjY8Sei5g) | 2025/5/7 |
+| [**14 Ways LLMs Are Transforming Chemistry and Materials Science: Reflections on an LLM Hackathon**](http://mp.weixin.qq.com/s/K1knkWuhxcaLRUGk23zCsQ) | 2025/4/29 |
+| [**From Literature Assistant to Discovery Engine**: How LLMs Are Reshaping Chemistry and Materials Research](http://mp.weixin.qq.com/s/8LtX5bGrFco5oJ2RYxoHng) | 2025/4/24 |
+| [**Nature npj Review**: NLP and LLMs Redefining the Paradigm of Materials Research](http://mp.weixin.qq.com/s/3NU3cIgIz4mNmff7vsMW4Q) | 2025/4/22 |
+| [**LLMs in Materials Science**: Knowledge Discovery, Property Prediction, and Experimental Automation](http://mp.weixin.qq.com/s/xJHgGcW253L5OXHh2lIRZQ) | 2025/4/16 |
+| [**Nature Reviews Materials**: Three Core Applications of LLMs in Framework Chemistry—Data Mining, Structural Design, and Automated Synthesis](http://mp.weixin.qq.com/s/D6O3UogLez0i6PxlyN2l0A) | 2025/4/2 |
+| [**Can LLMs Revolutionize Materials Science? Addressing Key Challenges First**](http://mp.weixin.qq.com/s/Fh7A77jme4ldh0GM8yvvIA) | 2025/3/20 |
+| [**Nature Machine Intelligence**: LLM-Driven Molecular Science—From Knowledge Synthesis to Explainable Prediction](http://mp.weixin.qq.com/s/QB_Y169wLyFNQhxw0_nOIg) | 2025/3/17 |
 ---
 
-## 10. 项目实战与其他
-*项目教程、行业观察与热点速递。*
 
-| 文章 | 发布时间 |
+## 10. Project Practice and Others  
+*Project tutorials, industry insights, and trending updates.*
+
+| Article | Release Date |
 | :--- | :--- |
-| [6月前沿速递 \| 苹果证明DeepSeek-R1等大模型没有推理能力？](http://mp.weixin.qq.com/s/JQnRrYWyrqPPJ14TFbJ5ng) | 2025/6/11 |
-| [浙江大学 \| iChemFoundry：高通量化学合成的智能自动化平台](http://mp.weixin.qq.com/s/reQcb-h4025Dk4E9Mdu2vg) | 2025/5/30 |
-| [项目实战 \| 化学信息抽取：从环境搭建到模型微调与推理](http://mp.weixin.qq.com/s/lVHpFelRxCjOwf_fOUebEg) | 2025/5/27 |
-| [强化学习之父&DeepMind \| 欢迎来到经验时代](http://mp.weixin.qq.com/s/IghT7qi-OWaA3bxYDXu3Gw) | 2025/4/17 |
-| [大模型首次通过图灵测试 \| 人类辨别失败率超70%](http://mp.weixin.qq.com/s/7DYWw66LOi2G5z-jNxSdwQ) | 2025/4/3 |
-| [全球首款通用AI Agent「Manus」来了！中国团队打造](http://mp.weixin.qq.com/s/4pKbnHkUl17I37tkH6-zrA) | 2025/3/6 |
-
+| [June Frontier Express \| Apple Proves Models Like DeepSeek-R1 Lack True Reasoning Ability?](http://mp.weixin.qq.com/s/JQnRrYWyrqPPJ14TFbJ5ng) | 2025/6/11 |
+| [Zhejiang University \| iChemFoundry: An Intelligent Automation Platform for High-Throughput Chemical Synthesis](http://mp.weixin.qq.com/s/reQcb-h4025Dk4E9Mdu2vg) | 2025/5/30 |
+| [Project Practice \| Chemical Information Extraction: From Environment Setup to Model Fine-tuning and Inference](http://mp.weixin.qq.com/s/lVHpFelRxCjOwf_fOUebEg) | 2025/5/27 |
+| [Father of Reinforcement Learning & DeepMind \| Welcome to the Era of Experience](http://mp.weixin.qq.com/s/IghT7qi-OWaA3bxYDXu3Gw) | 2025/4/17 |
+| [The First Time a Large Model Passes the Turing Test \| Human Failure Rate Exceeds 70%](http://mp.weixin.qq.com/s/7DYWw66LOi2G5z-jNxSdwQ) | 2025/4/3 |
+| [World’s First General AI Agent "Manus" Released! Built by a Chinese Team](http://mp.weixin.qq.com/s/4pKbnHkUl17I37tkH6-zrA) | 2025/3/6 |
 ---
 
-## 📌 说明
-- 本仓库主要基于公众号 **「你好不吃虾」** 分享内容进行整理。
-- 若有遗漏或错误，欢迎提交 **Issue/PR** 进行补充与修正。
-- License: [CC BY-NC 4.0](./LICENSE)
+## 🧭 License
+All materials are shared under the [**CC BY-NC 4.0 License**](https://creativecommons.org/licenses/by-nc/4.0/).  
+Please **credit “你好不吃虾”** and link to the original article when citing or reproducing.
+---
 
+## 💡 Acknowledgment
+This project is maintained by **[你好不吃虾 | AI for Science Insight Team]**,  
+aiming to make **AI4Science research more accessible, transparent, and systematic**.
